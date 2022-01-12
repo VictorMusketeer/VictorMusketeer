@@ -1,0 +1,40 @@
+{% extends 'Layout.html' %} {% block body %}
+<h1>Dashboard</h1>
+
+<div class="modal fade" id="answersModel" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Answers</h3>
+                <a href="" class="close" data-dismiss="modal">&times;</a>
+            </div>
+            <div class="modal-body" id="answersFormDiv">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    {% for question in questions %}
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{question['title']}}</h5>
+            <small class="text-secondary">Asked by : {{question['name']}}  on {{question['question_date']}}</small>
+            <p class="card-text">{{ question['question'] | safe }}</p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="/dashboard/ans_question/{{question['_id']}}">Answer</a>
+            <script src=" {{url_for( 'static', filename='js/answers.js' )}} "></script>
+            <a class="btn btn-success" onclick="showAnswers('{{question['_id']}}')">View Answers</a>
+        </div>
+    </div>
+    <hr> {% endfor %}
+</div>
+<script src=" {{url_for( 'static', filename='lib/jquery/dist/jquery.js' )}} "></script>
+<script>
+    var url = 'dashboard/member_answers/'
+</script>
+<script src=" {{url_for( 'static', filename='js/answers.js' )}} "></script>
+
+{% endblock%}
