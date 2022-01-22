@@ -1,0 +1,17 @@
+{% extends 'Layout.html' %}{% block body %}
+<h1>Questions</h1>
+<div class="container-fluid">
+    <a class="btn btn-primary" href="/askquestion">Ask a question</a>
+    <hr> {% for question in questions: %}
+    <div class="card">
+        <div class="card-body">
+            <div class="container card-title">
+                <small class="text-secondary"><i>Asked by : {{question['name']}} on {{question['question_date']}}</i></small>
+            </div>
+            <a href="/answers/{{question['_id']}}">{{question['title']}}</a>
+        </div>
+        </hr>
+    </div>
+    {%endfor%}
+</div>
+{% endblock %}

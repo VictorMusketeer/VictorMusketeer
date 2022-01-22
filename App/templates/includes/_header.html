@@ -1,0 +1,36 @@
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            {% if session.logged_in %}
+            <a class="navbar-brand" href="/dashboard">App</a>
+            <div class="text-primary text-end">Welcome : {{session['name']}}</div>
+            {% else: %}
+            <a class="navbar-brand" href="/">App</a> {% endif %}
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
+                <ul class="navbar-nav flex-grow-1 ml-auto">
+                    {% if session.logged_in %}
+                    <li class="nav-item">
+                        <a class="nav-link text-end" href="/dashboard">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger text-end" href="/logout">Logout</a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link text-dark text-end" href="/questions">QandA</a>
+                    </li>
+                    <li class="nav-item float-right">
+                        <a class="nav-link text-dark text-end" href="/login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark text-end" href="/register">Register</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

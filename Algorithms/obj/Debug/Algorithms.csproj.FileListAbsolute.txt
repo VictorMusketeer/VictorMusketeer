@@ -1,0 +1,11 @@
+C:\Users\mantj\source\repos\A B O U T  M E\Algorithms\bin\Debug\Algorithms.exe.config
+C:\Users\mantj\source\repos\A B O U T  M E\Algorithms\bin\Debug\Algorithms.exe
+C:\Users\mantj\source\repos\A B O U T  M E\Algorithms\bin\Debug\Algorithms.pdb
+C:\Users\mantj\source\repos\A B O U T  M E\Algorithms\obj\Debug\Algorithms.csproj.AssemblyReference.cache
+C:\Users\mantj\source\repos\A B O U T  M E\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\mantj\source\repos\A B O U T  M E\Algorithms\obj\Debug\Algorithms.exe
+C:\Users\mantj\source\repos\A B O U T  M E\Algorithms\obj\Debug\Algorithms.pdb
+C:\Users\mantj\source\repos\A B O U T  M E\Algorithms\obj\Debug\Algorithms.csproj.SuggestedBindingRedirects.cache
+C:\Users\mantj\source\repos\A B O U T  M E\Algorithms\obj\Debug\Algorithms.GraphUI.resources
+C:\Users\mantj\source\repos\A B O U T  M E\Algorithms\obj\Debug\Algorithms.csproj.GenerateResource.cache
+C:\Users\mantj\source\repos\A B O U T  M E\Algorithms\obj\Debug\Algorithms.Properties.Resources.resources

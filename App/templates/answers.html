@@ -1,0 +1,31 @@
+{% extends 'Layout.html' %} {% block body %}
+<h1>Answers</h1>
+<div class="container-fluid">
+    {% for question in questions %}
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{question['title']}}</h5>
+            <small class="text-secondary"><i>Asked by : {{question['name']}}  on {{question['question_date']}}</i></small>
+            <p class="card-text">{{ question['question'] | safe }}</p>
+        </div>
+    </div>
+    <hr>
+    <h5>Answers</h5>
+    <div class="container">
+        <a class="btn btn-primary" href="/re_post/{{id}}">Re-Post</a>
+        <br>
+        <br>
+    </div>
+    <div class="container">
+        {% for answer in answers%}
+        <div class="card">
+            <div class="card-body">
+                <small class="text-secondary"><i>Answered by : {{answer['answered_by']}}  on {{answer['answer_date']}}</i></small>
+                <p class="card-text">{{ answer['answer'] | safe }}</p>
+            </div>
+        </div>
+        <hr> {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+{% endblock%}
