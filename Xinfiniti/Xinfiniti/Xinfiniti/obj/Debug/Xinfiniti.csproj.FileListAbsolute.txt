@@ -1,0 +1,16 @@
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\bin\Debug\Xinfiniti.exe.config
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\bin\Debug\Xinfiniti.exe
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\bin\Debug\Xinfiniti.pdb
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\bin\Debug\Interop.WMPLib.dll
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\obj\Debug\Interop.WMPLib.dll
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\obj\Debug\Xinfiniti.csproj.ResolveComReference.cache
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\obj\Debug\Xinfiniti.Properties.Resources.resources
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\obj\Debug\Xinfiniti.csproj.GenerateResource.cache
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\obj\Debug\Xinfiniti.csproj.CoreCompileInputs.cache
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\obj\Debug\Xinfiniti.exe
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\obj\Debug\Xinfiniti.pdb
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\obj\Debug\Xinfiniti.frmXinfiniti.resources
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\obj\Debug\Xinfiniti.csproj.AssemblyReference.cache
+C:\Users\mantj\source\repos\Xinfiniti\Xinfiniti\Xinfiniti\obj\Debug\Xinfiniti.csproj.SuggestedBindingRedirects.cache

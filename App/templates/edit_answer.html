@@ -1,0 +1,12 @@
+{% extends 'Layout.html' %} {% block body %}
+<h1>Edit Article</h1>
+{% from 'includes/_formhelpers.html' import render_field %}
+<form method="post" action="">
+    <div class="form-group">
+        {{render_field(form.answer, class_="form-control", id="editor")}}
+    </div>
+    <br />
+    <p><input type="submit" class="btn btn-primary" value="Update">
+        <a class="btn btn-danger" href="/dashboard">Cancel</a></p>
+</form>
+{% endblock %}

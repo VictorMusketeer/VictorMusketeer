@@ -1,0 +1,24 @@
+{% extends 'Layout.html' %}{% block body %}
+<h1>Answer Question</h1>
+{% from 'includes/_formhelpers.html' import render_field %}
+<div class="container-fluid">
+    {% for question in questions %}
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{question['title']}}</h5>
+            <small class="text-secondary">Asked by : {{question['name']}} </small>
+            <p class="card-text">{{ question['question']|safe }}</p>
+        </div>
+    </div>
+    <hr> {% endfor %}
+    <form method="post" action="">
+        <div class="form-group">
+            {{render_field(form.answer, class_="form-control", id="editor")}}
+        </div>
+        <br />
+        <p><input type="submit" class="btn btn-primary" value="Submit">
+            <a class="btn btn-danger" href="/dashboard">Cancel</a></p>
+    </form>
+</div>
+
+{% endblock %}
